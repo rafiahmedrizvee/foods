@@ -3,6 +3,9 @@
     margin: 0;
     font-family: Roboto;
 }
+body{
+    overflow-x: hidden;
+}
 ul>li{
     list-style: none;
     font-weight: 700;
@@ -46,22 +49,63 @@ nav{
     align-items: center;
 }
 .works{
-    margin-top: 21px;
+    margin-top: 80px;
     text-align: center;
 }
 .service{
     margin-top: 32px;
+    margin-bottom: 32px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 80px;
+    gap: 160px;
+    justify-content: center;
 }
 .popular-contend{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 24px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 .items{
     background-color:aliceblue;
     padding: 20px;
 }
+.review-container{
+display: flex;
+margin-bottom: 50px;
+}
+.img-container{
+    margin-left: 160px;
+}
+.review-card{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+.cards{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 15px;
 
+}
+/* discount style */
+.discount-container{
+    background-image: url(../images/9.png);
+     background-size:contain;
+     height:332px;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 80px;
+
+}
+.footer-container{
+    background-image: url(../images/footer.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
