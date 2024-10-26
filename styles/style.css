@@ -123,11 +123,19 @@ margin-bottom: 50px;
     width: 167px;
 }
 .dot {
+
+    align-items: center;
+    justify-content: space-around;
     height: 35px;
     width: 35px;
     background-color: #bbb;
     border-radius: 50%;
-    display: inline-block;
+    position: relative;top: 20px;
+    padding: 10px;
+    margin-right: 20px;
+
+
+
   }
 
 
