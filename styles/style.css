@@ -109,3 +109,25 @@ margin-bottom: 50px;
     background-repeat: no-repeat;
     
 }
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 84px;
+    margin-bottom: 80px;
+
+}
+.logo-2{
+    margin-bottom: 40px;
+    height: 47px;
+    width: 167px;
+}
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
